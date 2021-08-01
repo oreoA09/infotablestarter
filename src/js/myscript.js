@@ -20,11 +20,13 @@ function displayResults(responseJson) {
     $("#mytable").html("")//clears the results
     responseJson.forEach(table=>{//loops through the array
       $("#mytable").append(`
+      <tr>
       <th>${table.id}</th>
       <th>${table.methodName}</th>
       <th>${table.medium}</th>
       <th>${table.yearOfOrigin}</th>
       <th>${table.modifiedOn}</th>
+      </tr>
       `)//appends table to results div
     })
    }
