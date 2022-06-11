@@ -13,17 +13,17 @@
         "jest-junit": "^12.0.0",
         "jquery": "3.5.1",
         "jsdom": "^16.4.0",
-        "mocha": "^8.2.1"
+        "mocha": "^10.0.0"
     },
     "devDependencies": {
-        "browser-sync": "2.26.13",
+        "browser-sync": "^2.27.10",
         "del": "6.0.0",
         "eslint": "^7.19.0",
         "eslint-config-standard": "^16.0.2",
         "eslint-plugin-import": "^2.22.1",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.2.1",
-        "gulp": "4.0.2",
+        "gulp": "^3.9.1",
         "merge-stream": "2.0.0",
         "mocha-junit-reporter": "^2.0.0"
     }
